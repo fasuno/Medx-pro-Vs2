@@ -1,0 +1,10 @@
+====NOTES===
+
+To Connect this App to any Hospital Running Eclinic
+
+1. Go to THE ECLinic Datatbase and create an account on the Database to allow you access to the database
+ ==how to==
+   1. Go to SqlServer MGNt studio
+   2.USe the creadential in your Connection string
+
+==Remember to uncheck "Enforce PAssword Expiration.....to do that Login to SQlserver=>Goto Security=>Login=>Click on the Account you created=>Uncheck PAssword Expiration

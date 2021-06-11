@@ -1,0 +1,6 @@
+SELECT 
+     REVERSE(PARSENAME(REPLACE(REVERSE(Name), ',', '.'), 1)) AS [Surname]
+   , REVERSE(PARSENAME(REPLACE(REVERSE(Name), ',', '.'), 2)) AS [Other Names]
+   
+FROM dbo.VwNameSeperation;
+GO

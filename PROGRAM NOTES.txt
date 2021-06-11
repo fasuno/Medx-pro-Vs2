@@ -1,0 +1,7 @@
+Note: 
+1. BY default reportviewer will show date and also time like 12/07/219:12:00:AM.
+ To change the date field back to a fixed date then follow the following step.
+1. Go to the report design
+2. Right clikc on the date field box and  select expression
+3. in the expression type this code---  =IIF(Year(Fields!DATE_SENT.Value)=1900,"-",Format(CDate(Fields!DATE_SENT.Value),"yyyy-MM-dd"))
+4. click Ok.

@@ -1,0 +1,210 @@
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\DEAMACLINIC.exe.config
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\DEAMACLINIC.exe
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\DEAMACLINIC.pdb
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\DEAMACLINIC.xml
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\FlashControlV71.dll
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\ShockwaveFlashObjects.dll
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\bin\Release\stdole.dll
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.AccountSet.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.ANCBooking.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.ANCfollowup.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmANCfollowUp.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.AncProfile.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.Consultations.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmAllDrugs.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmAllwaitingList.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmANCform.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmANCinfo.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmANCreg.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmAppointment.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmBedlist.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmCashier.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmCashreceipt.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmDrugPreview.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmDrugsbill.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmDrugsPresc.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmEditTestDetails.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmGenConsult.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmLabInvRqst.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmLABORATORY.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmLabrequest.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmLabResult.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmLabResultpreview.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmLabTestList.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmlogin.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmMywaitinglist.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmNewdrugs.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmNewLabTest.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmNewRadInv.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmNursing.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmPharmacy.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmPrinlabrqst.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmPrinRAdrqst.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmPrintDrugPresc.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmPrintreceipt.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmPTdrugs.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmPtRecords.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmPtreg.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmRadInv.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmRadiology.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmRadrequest.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmRADResult.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmRadTreatResult.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmRadViewResult.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmReceipts.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.Frmrecords.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmMain.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmScanlist.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmSettings.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmTestDetails.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmusers.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmvitals.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.Resources.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.Profile.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.PtDrugs1.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.PtLabHist.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.PtRadHist.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.ServiceSetings.resources
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.vbproj.GenerateResource.Cache
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.exe
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.xml
+C:\Users\HAVILAH\Documents\PROJECT WORKS\DEAMACLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.pdb
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\DEAMACLINIC.exe.config
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\Interop.AcroPDFLib.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\AxInterop.AcroPDFLib.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.vbproj.ResolveComReference.cache
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.exe
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.xml
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.pdb
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\DEAMACLINIC.exe
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\DEAMACLINIC.pdb
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\DEAMACLINIC.xml
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\FlashControlV71.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\ShockwaveFlashObjects.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\stdole.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\Interop.AcroPDFLib.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\bin\Release\AxInterop.AcroPDFLib.dll
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.AccountSet.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.Addroles.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.ANCBooking.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.ANCfollowup.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.BedManager.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.CarePlan.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.CompanyInfo.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmAdmitFolder.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmAdmitpt.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmANCfollowUp.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.AncProfile.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.Consultations.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmAllDrugs.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmAllwaitingList.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmANCform.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmANCinfo.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmANCreg.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmAppointment.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmCashier.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmCashreceipt.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmDocUpload.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmDrugPreview.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmDrugsbill.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmDrugsPresc.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmGenConsult.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmLabInvRqst.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmLABORATORY.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmLabrequest.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmLabResult.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmLabResultpreview.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmLabTestList.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmlogin.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmMywaitinglist.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmNewAdmit.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmNewdrugs.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmNewLabTest.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmNewRadInv.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmNursing.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmPharmacy.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmPrinlabrqst.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmPrinRAdrqst.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmPrintDrugPresc.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmPrintreceipt.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmPTdrugs.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmPtRecords.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmPtreg.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmRadInv.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmRadiology.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmRadrequest.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmRADResult.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmRadTreatResult.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmRadViewResult.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmReceipts.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.Frmrecords.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmMain.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmScanlist.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmSettings.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmSurgery.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmTestDetails.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmTheartre.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmusers.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.frmvitals.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmWardManager.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.InpatientConslt.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.InpatientDrugsHx.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.InpatientLabHx.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.InpatientRadHx.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.Resources.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.NurseReport.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.Nursinghx.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.ObservChart.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.OperatioNote.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.PostOpOrder.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.PreOpVisit.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.Profile.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.PtDrugs1.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.PtLabHist.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.PtRadHist.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.RoundNotes.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.ServiceSetings.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.SurgicalTeam.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.TheatreDrugs.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.TheatreLAb.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.TheatreScan.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.TreatmentChart.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.vbproj.GenerateResource.Cache
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmDischarge.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.AdmissionHX.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FluidBalChart.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmBiller.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.FrmRefer.resources
+C:\Users\fasun\Documents\Visual Studio 2015\Projects\MEDXPRO - SUPREME CLINIC\DEAMACLINIC\obj\Release\DEAMACLINIC.vbprojResolveAssemblyReference.cache

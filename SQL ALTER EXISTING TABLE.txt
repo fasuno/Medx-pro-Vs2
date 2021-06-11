@@ -1,0 +1,5 @@
+TO UPDATE EXISTING TABLE WITH NEW COLUMNS
+
+ALTER TABLE <table name>
+ADD <column name> [int] default (0) not nul
+         <column name> [varchar]  null

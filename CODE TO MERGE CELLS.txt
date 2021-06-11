@@ -1,0 +1,39 @@
+  
+
+'/// This code will merge datagrid cells that contain the same value and makes look like its 1, 
+'/// Its to be place on the Datagridview_CellPainting event
+
+
+
+
+
+
+If e.ColumnIndex = 0 AndAlso e.RowIndex <> -1 Then     '// I put 2 bcos column index starts from zero , i.e I'm targeting colmun 0 The Id
+
+            Using gridBrush As Brush = New SolidBrush(Me.DtgPendDrugrqst.GridColor), backColorBrush As Brush = New SolidBrush(e.CellStyle.BackColor)
+
+                Using gridLinePen As Pen = New Pen(gridBrush)
+                    ' Clear cell  
+                    e.Graphics.FillRectangle(backColorBrush, e.CellBounds)
+
+                    ' Draw line (bottom border and right border of current cell)  
+                    'If next row cell has different content, only draw bottom border line of current cell  
+                    If e.RowIndex < DtgPendDrugrqst.Rows.Count - 2 AndAlso DtgPendDrugrqst.Rows(e.RowIndex + 1).Cells(e.ColumnIndex).Value.ToString() <> e.Value.ToString() Then
+                        e.Graphics.DrawLine(gridLinePen, e.CellBounds.Left, e.CellBounds.Bottom - 1, e.CellBounds.Right - 1, e.CellBounds.Bottom - 1)
+                    End If
+
+                    ' Draw right border line of current cell  
+                    e.Graphics.DrawLine(gridLinePen, e.CellBounds.Right - 1, e.CellBounds.Top, e.CellBounds.Right - 1, e.CellBounds.Bottom)
+
+                    ' draw/fill content in current cell, and fill only one cell of multiple same cells  
+                    If Not e.Value Is Nothing Then
+                        If e.RowIndex > 0 AndAlso DtgPendDrugrqst.Rows(e.RowIndex - 1).Cells(e.ColumnIndex).Value.ToString() = e.Value.ToString() Then
+                        Else
+                            e.Graphics.DrawString(CType(e.Value, String), e.CellStyle.Font, Brushes.Black, e.CellBounds.X + 2, e.CellBounds.Y + 5, StringFormat.GenericDefault)
+                        End If
+                    End If
+
+                    e.Handled = True
+                End Using
+            End Using
+        End If

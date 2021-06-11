@@ -1,0 +1,86 @@
+//   Code for saving data and check if an entry exist in a particular table in the datatbase
+// an example here is the save button for new folder 
+
+  '//This will check if an hospital number already exist in the database
+
+        con.Open()
+
+        cmd = New SqlCommand("Select * from Pt_profile where Hospital_Num=@Hospital_Num", con)
+
+        cmd.Parameters.AddWithValue("@Hospital_Num", txthospnum.Text)
+        Using dtr As SqlDataReader = cmd.ExecuteReader
+
+            ' If it Then exist show message Erase hospital number textbox For New entry
+
+            If dtr.HasRows Then
+                MsgBox("Hospital Number has been used", MsgBoxStyle.Information, "Hospital number")
+                txthospnum.Text = ""
+                txthospnum.Focus()
+
+            Else
+
+                'Close the datareader and insert the following data when the save button is hit again
+
+                dtr.Close()
+
+                Try
+
+                    cmd.CommandType = System.Data.CommandType.Text
+                    cmd.CommandText = "insert into Pt_Profile values ('" & regdate.Text.ToString & "', '" & txthospnum.Text & "', '" & txtsurname.Text & "', '" & txtothernames.Text & "', '" & dbo.Text.ToString & "', '" & txtyear.Text & "', '" & txtmonths.Text & "', '" & cboacct.Text & "', '" & cbosex.Text & "', '" & cbomarital.Text & "', '" & cborelig.Text & "', '" & cbooccup.Text & "', '" & cbolga.Text & "', '" & cbostate.Text & "', '" & cbonat.Text & "', '" & txtadd.Text & "', '" & txtphone.Text & "', '" & txtemail.Text & "', '" & txtkinname.Text & "', '" & txtkinadd.Text & "', '" & txtkinphone.Text & "', '" & cborelat.Text & "', '" & cboprovider.Text & "', '" & cboenrol.Text & "', '" & txtemployer.Text & "', '" & txtenrolnum.Text & "', '" & txtnin.Text & "', '" & txtstate.Text & "', '" & txtcaution.Text & "')"
+
+                    cmd.Connection = con
+
+                    cmd.ExecuteNonQuery()
+
+                    MsgBox("New Patient Profile Created", MsgBoxStyle.Information, "New Folder")
+
+
+                Catch ex As Exception
+                    MessageBox.Show(ex.Message)
+
+                End Try
+
+                con.Close()
+
+                ' Clear all textboxes for new entry
+
+                txthospnum.Text = ""
+                txtsurname.Text = ""
+                txtothernames.Text = ""
+                cboacct.Text = ""
+                cboenrol.Text = ""
+                cbolga.Text = ""
+                cbomarital.Text = ""
+                cbonat.Text = ""
+                cbooccup.Text = ""
+                cboprovider.Text = ""
+                cborelat.Text = ""
+                cborelig.Text = ""
+                cbosex.Text = ""
+                cbostate.Text = ""
+                cbonat.Text = ""
+                txtadd.Text = ""
+                txtemail.Text = ""
+                txtemployer.Text = ""
+                txtenrolnum.Text = ""
+                txthospnum.Text = ""
+                txtkinadd.Text = ""
+                txtkinname.Text = ""
+                txtkinphone.Text = ""
+                txtnin.Text = ""
+                txtpass.Text = ""
+                txtphone.Text = ""
+                txtrecptnum.Text = ""
+                txtstate.Text = ""
+                txtcaution.Text = ""
+                txtmonths.Text = ""
+                txtyear.Text = ""
+                txthospnum.Focus()
+
+            End If
+
+        End Using
+
+        'Call the reloaddtgfolder to Refresh the folder datagrid
+
+        reloaddtgfolder()

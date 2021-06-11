@@ -1,0 +1,976 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{120FF44F-C94A-4025-915E-203A20C4159F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DEAMACLINIC.My.MyApplication</StartupObject>
+    <RootNamespace>DEAMACLINIC</RootNamespace>
+    <AssemblyName>DEAMACLINIC</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DEAMACLINIC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DEAMACLINIC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Text</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>stest1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmBiller.Designer.vb">
+      <DependentUpon>FrmBiller.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBiller.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDischarge.Designer.vb">
+      <DependentUpon>FrmDischarge.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDischarge.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPTdrugs.Designer.vb">
+      <DependentUpon>FrmPTdrugs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPTdrugs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRefer.Designer.vb">
+      <DependentUpon>FrmRefer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRefer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmvitals.Designer.vb">
+      <DependentUpon>frmvitals.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmvitals.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl\AccountSet.Designer.vb">
+      <DependentUpon>AccountSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\AccountSet.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\Addroles.Designer.vb">
+      <DependentUpon>Addroles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\Addroles.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\AdmissionHX.Designer.vb">
+      <DependentUpon>AdmissionHX.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\AdmissionHX.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ANCBooking.Designer.vb">
+      <DependentUpon>ANCBooking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ANCBooking.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ANCfollowup.Designer.vb">
+      <DependentUpon>ANCfollowup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ANCfollowup.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\BedManager.Designer.vb">
+      <DependentUpon>BedManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\BedManager.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\CarePlan.Designer.vb">
+      <DependentUpon>CarePlan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\CarePlan.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\CompanyInfo.Designer.vb">
+      <DependentUpon>CompanyInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\CompanyInfo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="connstring.vb" />
+    <Compile Include="FrmAdmitFolder.Designer.vb">
+      <DependentUpon>FrmAdmitFolder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdmitFolder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdmitpt.Designer.vb">
+      <DependentUpon>FrmAdmitpt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdmitpt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmANCfollowUp.Designer.vb">
+      <DependentUpon>FrmANCfollowUp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmANCfollowUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl\AncProfile.Designer.vb">
+      <DependentUpon>AncProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\AncProfile.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Connection.vb" />
+    <Compile Include="UserControl\Consultations.Designer.vb">
+      <DependentUpon>Consultations.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\Consultations.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmAllDrugs.Designer.vb">
+      <DependentUpon>frmAllDrugs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAllDrugs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAllwaitingList.Designer.vb">
+      <DependentUpon>frmAllwaitingList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAllwaitingList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmANCform.Designer.vb">
+      <DependentUpon>FrmANCform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmANCform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmANCinfo.Designer.vb">
+      <DependentUpon>FrmANCinfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmANCinfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmANCreg.Designer.vb">
+      <DependentUpon>FrmANCreg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmANCreg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCashier.Designer.vb">
+      <DependentUpon>frmCashier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCashier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCashreceipt.Designer.vb">
+      <DependentUpon>FrmCashreceipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCashreceipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDocUpload.Designer.vb">
+      <DependentUpon>FrmDocUpload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDocUpload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDrugPreview.Designer.vb">
+      <DependentUpon>FrmDrugPreview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDrugPreview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDrugsbill.Designer.vb">
+      <DependentUpon>FrmDrugsbill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDrugsbill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDrugsPresc.Designer.vb">
+      <DependentUpon>FrmDrugsPresc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDrugsPresc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenConsult.Designer.vb">
+      <DependentUpon>frmGenConsult.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGenConsult.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLabInvRqst.Designer.vb">
+      <DependentUpon>FrmLabInvRqst.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLabInvRqst.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLABORATORY.Designer.vb">
+      <DependentUpon>frmLABORATORY.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLABORATORY.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLabrequest.Designer.vb">
+      <DependentUpon>FrmLabrequest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLabrequest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLabResult.Designer.vb">
+      <DependentUpon>frmLabResult.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLabResult.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLabResultpreview.Designer.vb">
+      <DependentUpon>FrmLabResultpreview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLabResultpreview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLabTestList.Designer.vb">
+      <DependentUpon>frmLabTestList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLabTestList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.Designer.vb">
+      <DependentUpon>frmlogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmlogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMywaitinglist.Designer.vb">
+      <DependentUpon>FrmMywaitinglist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMywaitinglist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewAdmit.Designer.vb">
+      <DependentUpon>FrmNewAdmit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewAdmit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewdrugs.Designer.vb">
+      <DependentUpon>FrmNewdrugs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewdrugs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewLabTest.Designer.vb">
+      <DependentUpon>FrmNewLabTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewLabTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewRadInv.Designer.vb">
+      <DependentUpon>FrmNewRadInv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewRadInv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNursing.Designer.vb">
+      <DependentUpon>frmNursing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNursing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPharmacy.Designer.vb">
+      <DependentUpon>FrmPharmacy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPharmacy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrinlabrqst.Designer.vb">
+      <DependentUpon>FrmPrinlabrqst.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrinlabrqst.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrinRAdrqst.Designer.vb">
+      <DependentUpon>frmPrinRAdrqst.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrinRAdrqst.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintDrugPresc.Designer.vb">
+      <DependentUpon>FrmPrintDrugPresc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintDrugPresc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintreceipt.Designer.vb">
+      <DependentUpon>FrmPrintreceipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintreceipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPtRecords.Designer.vb">
+      <DependentUpon>FrmPtRecords.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPtRecords.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRadInv.Designer.vb">
+      <DependentUpon>FrmRadInv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRadInv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRadiology.Designer.vb">
+      <DependentUpon>FrmRadiology.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRadiology.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRadrequest.Designer.vb">
+      <DependentUpon>FrmRadrequest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRadrequest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRADResult.Designer.vb">
+      <DependentUpon>frmRADResult.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRADResult.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRadTreatResult.Designer.vb">
+      <DependentUpon>FrmRadTreatResult.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRadTreatResult.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRadViewResult.Designer.vb">
+      <DependentUpon>FrmRadViewResult.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRadViewResult.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReceipts.Designer.vb">
+      <DependentUpon>FrmReceipts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReceipts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmrecords.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmrecords.Designer.vb">
+      <DependentUpon>frmrecords.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAppointment.Designer.vb">
+      <DependentUpon>FrmAppointment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAppointment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPtreg.Designer.vb">
+      <DependentUpon>FrmPtreg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPtreg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmScanlist.Designer.vb">
+      <DependentUpon>FrmScanlist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmScanlist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSettings.Designer.vb">
+      <DependentUpon>FrmSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSurgery.Designer.vb">
+      <DependentUpon>FrmSurgery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSurgery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTestDetails.Designer.vb">
+      <DependentUpon>FrmTestDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTestDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTheartre.Designer.vb">
+      <DependentUpon>FrmTheartre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTheartre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmusers.Designer.vb">
+      <DependentUpon>frmusers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmusers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWardManager.Designer.vb">
+      <DependentUpon>FrmWardManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWardManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl\FluidBalChart.Designer.vb">
+      <DependentUpon>FluidBalChart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\FluidBalChart.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\InpatientConslt.Designer.vb">
+      <DependentUpon>InpatientConslt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\InpatientConslt.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\InpatientDrugsHx.Designer.vb">
+      <DependentUpon>InpatientDrugsHx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\InpatientDrugsHx.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\InpatientLabHx.Designer.vb">
+      <DependentUpon>InpatientLabHx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\InpatientLabHx.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\InpatientRadHx.Designer.vb">
+      <DependentUpon>InpatientRadHx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\InpatientRadHx.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UserControl\NurseReport.Designer.vb">
+      <DependentUpon>NurseReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\NurseReport.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\Nursinghx.Designer.vb">
+      <DependentUpon>Nursinghx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\Nursinghx.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ObservChart.Designer.vb">
+      <DependentUpon>ObservChart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ObservChart.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\OperatioNote.Designer.vb">
+      <DependentUpon>OperatioNote.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\OperatioNote.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\PostOpOrder.Designer.vb">
+      <DependentUpon>PostOpOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PostOpOrder.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\PreOpVisit.Designer.vb">
+      <DependentUpon>PreOpVisit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PreOpVisit.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\Profile.Designer.vb">
+      <DependentUpon>Profile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\Profile.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\PtDrugs.Designer.vb">
+      <DependentUpon>PtDrugs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PtDrugs.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\PtLabHist.Designer.vb">
+      <DependentUpon>PtLabHist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PtLabHist.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\PtRadHist.Designer.vb">
+      <DependentUpon>PtRadHist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PtRadHist.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\RoundNotes.Designer.vb">
+      <DependentUpon>RoundNotes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\RoundNotes.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ServiceSetings.Designer.vb">
+      <DependentUpon>ServiceSetings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ServiceSetings.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\SurgicalTeam.Designer.vb">
+      <DependentUpon>SurgicalTeam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\SurgicalTeam.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\TheatreDrugs.Designer.vb">
+      <DependentUpon>TheatreDrugs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\TheatreDrugs.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\TheatreLAb.Designer.vb">
+      <DependentUpon>TheatreLAb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\TheatreLAb.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\TheatreScan.Designer.vb">
+      <DependentUpon>TheatreScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\TheatreScan.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\TreatmentChart.Designer.vb">
+      <DependentUpon>TreatmentChart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\TreatmentChart.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmBiller.resx">
+      <DependentUpon>FrmBiller.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDischarge.resx">
+      <DependentUpon>FrmDischarge.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPTdrugs.resx">
+      <DependentUpon>FrmPTdrugs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRefer.resx">
+      <DependentUpon>FrmRefer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmvitals.resx">
+      <DependentUpon>frmvitals.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\AccountSet.resx">
+      <DependentUpon>AccountSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\Addroles.resx">
+      <DependentUpon>Addroles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\AdmissionHX.resx">
+      <DependentUpon>AdmissionHX.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ANCBooking.resx">
+      <DependentUpon>ANCBooking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ANCfollowup.resx">
+      <DependentUpon>ANCfollowup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\BedManager.resx">
+      <DependentUpon>BedManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\CarePlan.resx">
+      <DependentUpon>CarePlan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\CompanyInfo.resx">
+      <DependentUpon>CompanyInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdmitFolder.resx">
+      <DependentUpon>FrmAdmitFolder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdmitpt.resx">
+      <DependentUpon>FrmAdmitpt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmANCfollowUp.resx">
+      <DependentUpon>FrmANCfollowUp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\AncProfile.resx">
+      <DependentUpon>AncProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\Consultations.resx">
+      <DependentUpon>Consultations.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAllDrugs.resx">
+      <DependentUpon>frmAllDrugs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAllwaitingList.resx">
+      <DependentUpon>frmAllwaitingList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmANCform.resx">
+      <DependentUpon>FrmANCform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmANCinfo.resx">
+      <DependentUpon>FrmANCinfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmANCreg.resx">
+      <DependentUpon>FrmANCreg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAppointment.resx">
+      <DependentUpon>FrmAppointment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCashier.resx">
+      <DependentUpon>frmCashier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCashreceipt.resx">
+      <DependentUpon>FrmCashreceipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDocUpload.resx">
+      <DependentUpon>FrmDocUpload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDrugPreview.resx">
+      <DependentUpon>FrmDrugPreview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDrugsbill.resx">
+      <DependentUpon>FrmDrugsbill.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDrugsPresc.resx">
+      <DependentUpon>FrmDrugsPresc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGenConsult.resx">
+      <DependentUpon>frmGenConsult.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLabInvRqst.resx">
+      <DependentUpon>FrmLabInvRqst.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLABORATORY.resx">
+      <DependentUpon>frmLABORATORY.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLabrequest.resx">
+      <DependentUpon>FrmLabrequest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLabResult.resx">
+      <DependentUpon>frmLabResult.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLabResultpreview.resx">
+      <DependentUpon>FrmLabResultpreview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLabTestList.resx">
+      <DependentUpon>frmLabTestList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlogin.resx">
+      <DependentUpon>frmlogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMywaitinglist.resx">
+      <DependentUpon>FrmMywaitinglist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewAdmit.resx">
+      <DependentUpon>FrmNewAdmit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewdrugs.resx">
+      <DependentUpon>FrmNewdrugs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewLabTest.resx">
+      <DependentUpon>FrmNewLabTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewRadInv.resx">
+      <DependentUpon>FrmNewRadInv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNursing.resx">
+      <DependentUpon>frmNursing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPharmacy.resx">
+      <DependentUpon>FrmPharmacy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrinlabrqst.resx">
+      <DependentUpon>FrmPrinlabrqst.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrinRAdrqst.resx">
+      <DependentUpon>frmPrinRAdrqst.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintDrugPresc.resx">
+      <DependentUpon>FrmPrintDrugPresc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintreceipt.resx">
+      <DependentUpon>FrmPrintreceipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPtRecords.resx">
+      <DependentUpon>FrmPtRecords.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPtreg.resx">
+      <DependentUpon>FrmPtreg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRadInv.resx">
+      <DependentUpon>FrmRadInv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRadiology.resx">
+      <DependentUpon>FrmRadiology.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRadrequest.resx">
+      <DependentUpon>FrmRadrequest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRADResult.resx">
+      <DependentUpon>frmRADResult.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRadTreatResult.resx">
+      <DependentUpon>FrmRadTreatResult.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRadViewResult.resx">
+      <DependentUpon>FrmRadViewResult.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReceipts.resx">
+      <DependentUpon>FrmReceipts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmrecords.resx">
+      <DependentUpon>frmrecords.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmScanlist.resx">
+      <DependentUpon>FrmScanlist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSettings.resx">
+      <DependentUpon>FrmSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSurgery.resx">
+      <DependentUpon>FrmSurgery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTestDetails.resx">
+      <DependentUpon>FrmTestDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTheartre.resx">
+      <DependentUpon>FrmTheartre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmusers.resx">
+      <DependentUpon>frmusers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWardManager.resx">
+      <DependentUpon>FrmWardManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\FluidBalChart.resx">
+      <DependentUpon>FluidBalChart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\InpatientConslt.resx">
+      <DependentUpon>InpatientConslt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\InpatientDrugsHx.resx">
+      <DependentUpon>InpatientDrugsHx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\InpatientLabHx.resx">
+      <DependentUpon>InpatientLabHx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\InpatientRadHx.resx">
+      <DependentUpon>InpatientRadHx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\NurseReport.resx">
+      <DependentUpon>NurseReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\Nursinghx.resx">
+      <DependentUpon>Nursinghx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ObservChart.resx">
+      <DependentUpon>ObservChart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\OperatioNote.resx">
+      <DependentUpon>OperatioNote.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\PostOpOrder.resx">
+      <DependentUpon>PostOpOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\PreOpVisit.resx">
+      <DependentUpon>PreOpVisit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\Profile.resx">
+      <DependentUpon>Profile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\PtDrugs.resx">
+      <DependentUpon>PtDrugs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\PtLabHist.resx">
+      <DependentUpon>PtLabHist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\PtRadHist.resx">
+      <DependentUpon>PtRadHist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\RoundNotes.resx">
+      <DependentUpon>RoundNotes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ServiceSetings.resx">
+      <DependentUpon>ServiceSetings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\SurgicalTeam.resx">
+      <DependentUpon>SurgicalTeam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\TheatreDrugs.resx">
+      <DependentUpon>TheatreDrugs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\TheatreLAb.resx">
+      <DependentUpon>TheatreLAb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\TheatreScan.resx">
+      <DependentUpon>TheatreScan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\TreatmentChart.resx">
+      <DependentUpon>TreatmentChart.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DATASETS\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+    <None Include="Resources\accounting.png" />
+    <None Include="Resources\cancel.png" />
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\Backbg2.png" />
+    <None Include="Resources\Backbg.png" />
+    <Content Include="stest1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
